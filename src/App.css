@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,30 +15,32 @@
 
 .pane {
   background-color: black;
-  border-radius: 30px;
-  border: 5px;
-  margin: 60px;
+  border: 3px solid white;
   width: 50%;
+  padding-top: 2px;
+  margin: auto;
   display: flex;
   flex-direction: column;
 
 }
 
 img {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  width: 100%;
+  width: 99%;
   height: auto;
+  margin: auto;
 }
 
 h2 {
-  font-size: 30pt;
+  font-size: 35pt;
+  font-weight: 300;
   font-family: 'Times New Roman', Times, serif;
   color: whitesmoke;
   margin: 10px 10px 0px 10px;
 }
 
 h3 {
+  font-size: 15pt;
+  font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
   margin: 0px 10px 10px 10px;
